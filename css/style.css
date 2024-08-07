@@ -16,7 +16,7 @@
   --color-gris-oscuro: #333333;
 }
 
-/* Estilos generales */
+
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
@@ -51,7 +51,7 @@ h1, h2, h3 {
     padding: 15px 30px;
 }
 
-/* Header y navegación */
+
 header {
     position: fixed;
     width: 100%;
@@ -93,7 +93,7 @@ nav ul li a {
     text-decoration: none;
 }
 
-/* Sección Hero */
+
 .hero {
     background-color: var(--color-blanco-hueso);
     text-align: center;
@@ -105,7 +105,7 @@ nav ul li a {
     margin-bottom: 0.5rem;
 }
 
-/* Sección de promociones */
+
 .promociones {
     padding: 2rem;
     background-color: var(--color-blanco-antique);
@@ -130,14 +130,14 @@ nav ul li a {
     border-radius: 5px;
 }
 
-/* Sección CTA */
+
 .cta {
     background-color: var(--color-rosa-palido);
     text-align: center;
     padding: 4rem 2rem;
 }
 
-/* Página de detalles de promoción */
+
 .promo-detalle {
     max-width: 800px;
     margin: 0 auto;
@@ -174,7 +174,6 @@ overflow: hidden;
     height: 100%;
 }
 
-/* Página de suscripción */
 .suscripcion {
     max-width: 600px;
     margin: 0 auto;
@@ -202,13 +201,16 @@ overflow: hidden;
 }
 
 footer {
-    background-color: var(--color-rojo-oscuro);
-    color: var(--color-blanco-puro);
+    background-color: var(--color-blanco-almendra);
+    color: var(--color-gris-oscuro);
     padding: 1rem;
     position: fixed;
-    bottom: 0;
+    bottom: 0%;
+    margin-bottom: 20;
     width: 100%;
 }
+
+
 
 .footer-content {
     display: flex;
@@ -216,6 +218,10 @@ footer {
     align-items: center;
     max-width: 80%;
     margin: 0 auto;
+}
+.container-lis{
+    display: flex;
+    justify-content: space-between;
 }
 
 .social-icons {
@@ -228,30 +234,74 @@ footer {
 }
 
 .social-icons img {
-    width: 2rem; /* Ajusta este valor según el tamaño deseado de tus iconos */
+    width: 2rem; 
     height: 2rem;
     margin-bottom: 30px;
 }
 
 .copyright {
-    margin-bottom: 2vh; /* Esto despega el texto de copyright 2vh del borde inferior */
+    margin-bottom: 2vh; 
 }
 
-/* Responsive */
-@media (max-width: 768px) {
-    nav {
-        flex-direction: column;
-    }
 
-    nav ul {
-        margin-top: 1rem;
-    }
 
-    nav ul li {
-        margin: 0 10px;
-    }
 
-    .hero h1 {
-        font-size: 2em;
-    }
+
+.sobre-mi {
+    max-width: 50%;
+    margin:  auto;
+    padding: 4rem;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+.sobre-mi h1 {
+    color: #8B0000; /* Color rojo oscuro de Siman */
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.sobre-mi h2 {
+    color: #D2042D; /* Color rojo cereza de Siman */
+    font-size: 1.8em;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.sobre-mi p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.historia, .esencia, .valores{
+    background-color: #FFF5EE; 
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.valores ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.valores li {
+    background-color: var(--color-rojo-coral);
+    color: var(--color-blanco-puro);
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.comunicado {
+    background-color: var(--color-blanco-puro);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow:0 2px 4px rgba(0,0,0,0.1) ;
+    border-left: 5px solid var(--color-rojo-oscuro);
+    border-right: 5px solid var(--color-rojo-oscuro);
 }
