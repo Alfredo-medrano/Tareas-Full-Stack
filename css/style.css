@@ -105,11 +105,23 @@ nav ul li a {
     margin-bottom: 0.5rem;
 }
 
+.kaly{
+    padding-top: 10%;
+}
 
 .promociones {
     padding: 2rem;
     background-color: var(--color-blanco-antique);
 }
+.promo-header {
+    display:contents ;
+    
+    gap: 6rem;
+}
+.promo-header img {
+    max-width: 20%; 
+}
+
 
 .promo-grid {
     display: grid;
@@ -256,14 +268,14 @@ footer {
 }
 
 .sobre-mi h1 {
-    color: #8B0000; /* Color rojo oscuro de Siman */
+    color: #8B0000; 
     font-size: 2.5em;
     text-align: center;
     margin-bottom: 30px;
 }
 
 .sobre-mi h2 {
-    color: #D2042D; /* Color rojo cereza de Siman */
+    color: #D2042D; 
     font-size: 1.8em;
     margin-top: 30px;
     margin-bottom: 15px;
